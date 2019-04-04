@@ -4,6 +4,7 @@
   "description": "gulu源码学习",
   "main": "index.js",
   "scripts": {
+    "start": "parcel index.html --no-cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^2.6.0",
+    "chai": "^4.2.0",
     "parcel-bundler": "^1.12.3",
     "sass": "^1.17.4",
     "vue-template-compiler": "^2.6.10"
