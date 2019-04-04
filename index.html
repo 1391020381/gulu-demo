@@ -52,6 +52,8 @@
     <div id="app">
    <div class="box">
     <g-input v-model="message"></g-input>
+      <g-input disabled></g-input>
+      <g-input readonly ></g-input>
     <p>{{message}}</p>
     <button @click="message+=1">+1</button>
   </div>
@@ -76,6 +78,15 @@
     </g-button-group>
     
     <div id="test"></div>
+
+
+   <div style="border: 1px solid black;">
+
+    <g-row gutter="20">
+      <g-col>1</g-col>
+      <g-col>2</g-col>
+    </g-row>
+  </div>
     </div>
     </div>
    <script src="./src/app.js"></script>
